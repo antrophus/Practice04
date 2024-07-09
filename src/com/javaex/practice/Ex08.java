@@ -7,11 +7,11 @@ public class Ex08 {
 
 	public static void main(String[] args) {
 
-		int[] lotto = new int[6];
+		int[] lotto = new int[6]; // 배열로 6개의 방 확보
 
-		for (int i = 0; i < lotto.length; i++) {
+		for (int i = 0; i < lotto.length; i++) { // 방 6개에 들어갈 숫자들을 반복문으로 찾음
 
-			lotto[i] = (int) (Math.random() * 45) + 1;
+			lotto[i] = (int) (Math.random() * 45) + 1; //랜덤으로 뽑은 숫자를 방에 하나씩 넣음
 
 			for (int j = 0; j < i; j++) {
 
